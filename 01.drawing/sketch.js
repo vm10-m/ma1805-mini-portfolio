@@ -1,56 +1,17 @@
-function setup() {
-    createCanvas(500,500); // canvas width/height
-    background(0) // Make background black
-}
+function setup () {
+    createCanvas(400, 400);
+    }
 
-// Start draw function code black
-function draw(){
-    fill(255); // set fill color
-    ellipse(400, 250, 200, 200); 
-}
-// End of the code block
+    function draw () {
+        background(220);
 
+        //eyes
+        fill(100, 10, 67);
+        circle (50,50,50);
+        circle (150,50,50); 
 
-
-
-
-
-
-
-
-
-
-
-
-let moving_size = 80;
-let static_size = 20;
-function setup() {
- createCanvas(windowWidth, windowHeight);
- frameRate(15)
-}
-function draw() {
-    //background
-    background(random(230,240));
-    //left
-    noStroke();
-    fill(10,143,53);
-    beginShape();
-    circle(140, 200, 200);
-    fill (235, 199, 237)
-    endShape(CLOSE);
-    //right
-    noStroke();
-    //bottom
-    noFill();
-    stroke(130);
-    strokeWeight(2);
-    //mouse interactions
-
-    fill(230,230,163)
-    circle(94,180,40);
-    circle(180,180,40);
-    triangle(200, 330, 309, 330, 230, 300);
-    fill(235,199,240);
-    
-}
+        //mouth
+        fill(0,255,0,255);
+        ellipse(150,150,200,20);
+    }
 
