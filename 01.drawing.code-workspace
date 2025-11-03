@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../0.4 media"
+		},
+		{
+			"path": "../0.2movement"
+		},
+		{
+			"path": "../03.multiples"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "01.drawing",
+		"liveServer.settings.port": 5501
+	}
+}
