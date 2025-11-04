@@ -1,0 +1,4 @@
+this part is where i tried to use new elements of code e.g 'increment'to apply movement to my existing emoji which i had already created from 01. drawing.
+ i replaced some of the axis in the shapes which made up the mouth to make it look like the emoji was blowing a piece of bubblegum.
+  i also attempted to add an element of code i came across while researching p5.js templates which was an arc, to add to the emoji and its movement
+  , however i had difficulties in making this show up on the live server when i opened it.
